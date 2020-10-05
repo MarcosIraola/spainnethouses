@@ -7,6 +7,8 @@ const ListHouse = () => {
     return (
         <div className={styles.container}>
 
+            <h2 className={styles.titulo}>Tenemos lo que estas buscando</h2>
+
             <div className={styles.row}>
                 <HouseCard 
                     img={'https://cf.bstatic.com/images/hotel/max1024x768/174/174371067.jpg'}

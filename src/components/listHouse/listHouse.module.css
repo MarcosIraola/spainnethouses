@@ -5,6 +5,14 @@
     flex-direction: column;
 }
 
+.titulo {
+    margin: 20px auto 20px auto;
+    color: #103d3d;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 .row {
     width: 1070px;
     display: flex;

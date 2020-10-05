@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    height: 80px;
+    background-color: #007071;
+    display: flex;
+}
+
+.logo {
+    width: 60px; 
+    margin: auto 0 auto 15px;
+    border-radius: 35px;
+    border: 1px solid white;
+}

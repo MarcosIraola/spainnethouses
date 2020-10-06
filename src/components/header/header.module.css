@@ -9,11 +9,25 @@
 }
 
 .div_finder {
+    padding: 2rem;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: space-between;
     width: 40%;
-    height: 20%;
+    height: 30%;
     background-color: #1D2D44;
     opacity:0.8;
     color: white;
+}
+.div_finder > select {
+    width: 5rem ;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+.div_select {
+    display: flex;
+    flex-direction: column;
 }

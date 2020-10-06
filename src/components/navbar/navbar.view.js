@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './navbar.module.css';
-import logo from './assets/logo.png'
+import logo from './assets/logo.png';
+import { Smartphone, Phone, Mail } from 'react-feather';
 
 
 const NavBar = () => {
@@ -15,13 +16,13 @@ const NavBar = () => {
                 </div>
                 <div className={styles.div_menu}>
                     <div className={styles.div_contact}>
-                        <p>Telf. 654654654</p>
-                        <p>WhatsApp.  668545454</p>
-                        <p>Email. ventas@ventas.com</p>
+                        <p><Phone size={15}/> +34 654 654 654</p>
+                        <p><Smartphone size={15}/> +34 668 545 454</p>
+                        <p><Mail size={15}/>  ventas@ventas.com</p>
                     </div>
                     <div className={styles.div_navlink}>
                         <ul className={styles.ul_list}>
-                            <li>Home Page</li>
+                            <li>Home</li>
                             <li>Services</li>
                             <li>About Us</li>
                             <li>For sale</li>
